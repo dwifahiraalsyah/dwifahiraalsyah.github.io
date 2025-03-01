@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dwi Fahira Alsyah</h1>
+        <h2>102022330063 • Fakultas Rekayasa Industri • S1 Sistem Informasi</h2>
+    </header>
+    <section class="profile">
+        <img src="profile.jpg" alt="Foto Profil">
+    </section>
+    <section class="social-media">
+        <h3>Social Media</h3>
+        <a href="https://github.com/" target="_blank">
+            <img src="Github.png" alt="GitHub" width="50">
+        </a>
+        <a href="https://www.instagram.com/fahiraalsyhh_/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <img src="Instagram.png" alt="Instagram" width="50">
+        </a>
+    </section>
+    <section class="info">
+        <h3>About Me</h3>
+        <p>I'm just a 20 years old Telkom University student Trying to get better every day.</p>
+        <p id="datetime"></p>
+    </section>
+    <script>
+        document.getElementById("datetime").innerHTML = new Date().toLocaleString();
+    </script>
+</body>
+</html>
